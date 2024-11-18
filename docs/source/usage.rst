@@ -9,7 +9,7 @@ To use Lumache, first install it using pip:
 
 .. code-block:: console
 
-    $ Usage: ONTraC <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> <--meta-input META_INPUT> 
+    Usage: ONTraC <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> <--meta-input META_INPUT> 
     [--n-cpu N_CPU] [--n-neighbors N_NEIGHBORS] [--n-local N_LOCAL] [--device DEVICE] [--epochs EPOCHS] [--patience PATIENCE]
     [--min-delta MIN_DELTA] [--min-epochs MIN_EPOCHS] [--batch-size BATCH_SIZE] [-s SEED] [--lr LR] [--hidden-feats HIDDEN_FEATS]
     [--n-gcn-layers N_GCN_LAYERS] [-k K] [--modularity-loss-weight MODULARITY_LOSS_WEIGHT] [--purity-loss-weight PURITY_LOSS_WEIGHT]
@@ -82,7 +82,7 @@ Previouly named as createDataSet.
 
 .. code-block:: console
 
-    $ Usage: ONTraC_NN <--NN-dir NN_DIR> <--meta-input META_INPUT>
+    Usage: ONTraC_NN <--NN-dir NN_DIR> <--meta-input META_INPUT>
     [--n-cpu N_CPU] [--n-neighbors N_NEIGHBORS] [--n-local N_LOCAL]
 
     Create niche network and calculate features (normalized cell type composition).
@@ -115,7 +115,7 @@ Full parameters for ONTraC_GNN
 
 .. code-block:: console
 
-    $ Usage: ONTraC_GNN <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> [--device DEVICE]
+    Usage: ONTraC_GNN <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> [--device DEVICE]
     [--epochs EPOCHS] [--patience PATIENCE] [--min-delta MIN_DELTA] [--min-epochs MIN_EPOCHS] [--batch-size BATCH_SIZE] 
     [-s SEED] [--lr LR] [--hidden-feats HIDDEN_FEATS] [--n-gcn-layers N_GCN_LAYERS] [-k K]
     [--modularity-loss-weight MODULARITY_LOSS_WEIGHT] [--purity-loss-weight PURITY_LOSS_WEIGHT] 
@@ -169,7 +169,7 @@ Previouly named as NicheTrajectory.
 
 .. code-block:: console
 
-    $ Usage: ONTraC_NT <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> 
+    Usage: ONTraC_NT <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> 
             [--trajectory-construct TRAJECTORY_CONSTRUCT]
 
     ONTraC_NT: construct niche trajectory for niche cluster and project the NT score to each cell
@@ -197,7 +197,7 @@ Full parameters for ONTraC_analysis
 
 .. code-block:: console
 
-    $ Usage: ONTraC_analysis [--NN-dir NN_DIR] [--GNN-dir GNN_DIR] [--NT-dir NT_DIR] [-o OUTPUT]
+    Usage: ONTraC_analysis [--NN-dir NN_DIR] [--GNN-dir GNN_DIR] [--NT-dir NT_DIR] [-o OUTPUT]
     [--meta-input META_INPUT] [-l LOG] [-r REVERSE] [-s SAMPLE] [--scale-factor SCALE_FACTOR]
     [--suppress-cell-type-composition] [--suppress-niche-cluster-loadings] [--suppress-niche-trajectory]
     
@@ -248,7 +248,7 @@ Previouly named as ONTraC_GP.
 
 .. code-block:: console
 
-    $ Usage: ONTraC_GT <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> [--device DEVICE]
+    Usage: ONTraC_GT <--NN-dir NN_DIR> <--GNN-dir GNN_DIR> <--NT-dir NT_DIR> [--device DEVICE]
     [--epochs EPOCHS] [--patience PATIENCE] [--min-delta MIN_DELTA] [--min-epochs MIN_EPOCHS] [--batch-size BATCH_SIZE] 
     [-s SEED] [--lr LR] [--hidden-feats HIDDEN_FEATS] [--n-gcn-layers N_GCN_LAYERS] [-k K]
     [--modularity-loss-weight MODULARITY_LOSS_WEIGHT] [--purity-loss-weight PURITY_LOSS_WEIGHT] 
