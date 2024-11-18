@@ -3,7 +3,7 @@ Usage
 
 .. _installation:
 
-Installation
+Step 1: Create and enter conda env (recommend)
 ------------
 
 To use Lumache, first install it using pip:
