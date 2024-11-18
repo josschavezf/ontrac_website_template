@@ -8,14 +8,14 @@ ONTraC supports Python 3.10, 3.11, and 3.12 for now
 
 .. code-block:: console
 
-   (.venv) $ conda create -y -n ONTraC python=3.11  
-   (.venv) $ conda activate ONTraC
+   $ conda create -y -n ONTraC python=3.11  
+   $ conda activate ONTraC
 
 Add this kernel to jupyter (recommended)
 
 .. code-block:: console
-   (.venv) $ pip install ipykernel
-   (.venv) $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
+   $ pip install ipykernel
+   $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
 
 
 Step 2: Install ONTraC
@@ -24,14 +24,14 @@ Step 2: Install ONTraC
 Using pip
 
 .. code-block:: console
-   (.venv) $ pip install ONTraC
-   (.venv) $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
+   $ pip install ONTraC
+   $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
 
 
 Use this command if you want to visualise the results by `ONTraC_analysis`.
 
 .. code-block:: console
-   (.venv) $ pip install ONTraC[analysis]
+   $ pip install ONTraC[analysis]
 
 
 Using conda
@@ -42,16 +42,16 @@ NOTE: For x86-based macOS, conda install only supports Python 3.10 and 3.11 for
 now. WARNING: Installing with conda can be very slow.
 
 .. code-block:: console
-   (.venv) $ conda install -c gyuanlab -c pytorch -c pyg -c default -c nvidia -c conda-forge ontrac
+   $ conda install -c gyuanlab -c pytorch -c pyg -c default -c nvidia -c conda-forge ontrac
 
 
 Install the development version from GitHub
 
 .. code-block:: console
-   (.venv) $ git clone git@github.com:gyuanlab/ONTraC.git .
-   (.venv) $ cd ONTraC
-   (.venv) $ pip install .
-   (.venv) $ pip install ".[analysis]"
+   $ git clone git@github.com:gyuanlab/ONTraC.git .
+   $ cd ONTraC
+   $ pip install .
+   $ pip install ".[analysis]"
 
 
 Optional dependencies
@@ -65,6 +65,6 @@ through the following command if you want to use it in the preprocessing step
 when analyzing low resolution data.
 
 .. code-block:: console
-   (.venv) $ conda install bioconda::bioconductor-stdeconvolve -y
+   $ conda install bioconda::bioconductor-stdeconvolve -y
 
 

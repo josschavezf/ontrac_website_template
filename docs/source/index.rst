@@ -17,8 +17,9 @@ properties, niche trajectory analysis provides a coherent framework to study
 coordinated responses from all the cells in association with continuous tissue 
 microenvironment variations.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section for further information.
+
+Check out the :doc:`installation` section for installation guidelines.
 
 .. note::
 
