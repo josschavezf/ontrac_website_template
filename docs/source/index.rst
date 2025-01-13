@@ -33,3 +33,4 @@ Contents
    installation
    usage
    tutorials
+   examples

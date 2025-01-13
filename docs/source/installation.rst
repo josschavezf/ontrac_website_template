@@ -8,15 +8,15 @@ ONTraC supports Python 3.10, 3.11, and 3.12 for now
 
 .. code-block:: console
 
-   $ conda create -y -n ONTraC python=3.11  
-   $ conda activate ONTraC
+   conda create -y -n ONTraC python=3.11  
+   conda activate ONTraC
 
 Add this kernel to jupyter (recommended)
 
 .. code-block:: console
 
-   $ pip install ipykernel
-   $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
+   pip install ipykernel
+   python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
 
 
 Step 2: Install ONTraC
@@ -26,15 +26,15 @@ Using pip
 
 .. code-block:: console
 
-   $ pip install ONTraC
-   $ python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
+   pip install ONTraC
+   python -m ipykernel install --user --name ONTraC --display-name "Python 3.11 (ONTraC)"
 
 
 Use this command if you want to visualise the results by `ONTraC_analysis`.
 
 .. code-block:: console
 
-   $ pip install ONTraC[analysis]
+   pip install ONTraC[analysis]
 
 
 Using conda
@@ -46,17 +46,17 @@ now. WARNING: Installing with conda can be very slow.
 
 .. code-block:: console
 
-   $ conda install -c gyuanlab -c pytorch -c pyg -c default -c nvidia -c conda-forge ontrac
+   conda install -c gyuanlab -c pytorch -c pyg -c default -c nvidia -c conda-forge ontrac
 
 
 Install the development version from GitHub
 
 .. code-block:: console
 
-   $ git clone git@github.com:gyuanlab/ONTraC.git .
-   $ cd ONTraC
-   $ pip install .
-   $ pip install ".[analysis]"
+   git clone git@github.com:gyuanlab/ONTraC.git .
+   cd ONTraC
+   pip install .
+   pip install ".[analysis]"
 
 
 Optional dependencies
@@ -71,6 +71,6 @@ when analyzing low resolution data.
 
 .. code-block:: console
 
-   $ conda install bioconda::bioconductor-stdeconvolve -y
+   conda install bioconda::bioconductor-stdeconvolve -y
 
 
