@@ -5,13 +5,11 @@
 
 # -- General configuration
 
+
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-    'notfound.extension',
+ # ... other extensions here
+
+ 'notfound.extension',
 ]
 
 intersphinx_mapping = {
