@@ -1,3 +1,30 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools >= 61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ONTraC"
+authors = [
+          {name = "Wen Wang", email = "wwang.bio@gmail.com"},
+          {name = "Shiwei Zheng", email = "swzheng29@gmail.com"},
+          {name = "Crystal Shin", email = "sjcshin5040@gmail.com"},
+          {name = "Joselyn C. Chávez-Fuentes", email = "joselynchavezf@gmail.com"},
+          {name = "Guo-Cheng Yuan", email = "gcyuan@gmail.com"},
+          ]
+description = "A niche-centered, machine learning method for constructing spatially continuous trajectories"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+keywords = ["graph neural network", "pytorch", "pytorch geometric", "trajectory inference", "spatial omics"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+version = "1.1.3"
