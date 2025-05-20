@@ -1,3 +1,7 @@
+<head>
+<meta http-equiv="refresh" content="0; url=https://ontrac-website.readthedocs.io/en/latest/" />
+</head>
+
 # Welcome to ONTraC (Ordered Niche Trajectory Construction)
 
 <span>
